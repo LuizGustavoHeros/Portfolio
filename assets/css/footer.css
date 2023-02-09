@@ -1,0 +1,21 @@
+.text-footer{
+    color: var(--verde-agua-clarin);
+    transition: color .3s
+}
+.text-footer:hover {
+    color: var(--branco);
+}
+
+.faixa-footer{
+    background: var(--fundo-claro);
+}
+
+.email{
+    color: var(--verde-agua-clarin);
+    text-align: center;
+}
+
+.copyright{
+    color: var(--branco);
+    text-align: center;
+}

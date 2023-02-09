@@ -1,0 +1,28 @@
+.color-cabecalho{
+    color: var(--verde-agua);
+    font-weight: bold;
+}
+
+.backgroud-cabecalho{
+    background-color: var(--fundo-claro);
+}
+
+.navegadores{
+    font-size: 1.4em;
+}
+
+.button-list{
+    border: none;
+    transition: color .5s;
+}
+.button-list:hover{
+    color: #ffffff;
+}
+
+.titulo{
+    font-size: 1.9em;
+    transition: color .3s
+}
+.titulo:hover {
+    color: var(--branco);
+}

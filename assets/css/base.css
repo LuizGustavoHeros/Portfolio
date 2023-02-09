@@ -1,0 +1,68 @@
+:root {
+    --fundo: #022744;
+    --verde-agua: #289d99;
+    --verde-agua-clarin: #21DCA3;
+    --fundo-claro: #0b44705c;
+    --branco: aliceblue;
+}
+
+body {
+    font-family: 'Noto Serif Gujarati', serif;
+}
+
+.bg-page{
+    background-color: var(--fundo);
+    color: var(--branco);
+}
+
+.container {
+    padding: 0 6%;
+
+}
+
+
+
+.titulo-sobre {
+    font-size: 2.6em;
+}
+
+.texto{
+    font-size: 1.2em;
+    background-color: #012233;
+    padding: 0.6em 0.8em;
+    border-radius: 25px;
+}
+
+.bloco-texto{
+    padding: 3em 0em;
+}
+
+.img-me{
+    margin: 2em 0 0 0;
+    border-radius: 100%;
+    width: 15em; 
+    height: 15em;
+}
+
+.logos-conhecimentos{
+    width: 5.5em;
+    margin: 1em;
+}
+
+/* -- Contato -- */
+
+.padrao-input {
+    width: 70%;
+}
+
+.cor-texto {
+    color: black;
+}
+
+/* -- Projetos -- */
+
+.container-cards {
+    padding: 6% 0;
+    justify-content: center;
+    display: flex;
+}
